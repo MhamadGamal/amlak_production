@@ -343,6 +343,7 @@ html, body{
           text-decoration: none;
           text-align: right;
           color: #fff;
+          font-size: 1.1rem;
           &.active{
             background-color: #fff;
             color: $green-color;
@@ -476,7 +477,7 @@ table{
         border-bottom: none;
       }
       td{
-        padding: 10px 5px;
+        padding: 10px 25px;
         text-align: center;
         font-weight: bold;
         font-size: .85rem;
