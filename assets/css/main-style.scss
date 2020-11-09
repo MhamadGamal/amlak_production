@@ -439,11 +439,11 @@ html, body{
     position: relative;
     .arrow{
       position: absolute;
-      left: -10px;
-      bottom: 10px;
-      width: 40px;
-      height: 40px;
-      font-size: 1.6rem;
+      left: -15px;
+      bottom: 5px;
+      width: 30px;
+      height: 30px;
+      font-size: 1.4rem;
       border-radius: 50%;
       background-color: $green-color;
       text-align: center;
@@ -783,4 +783,14 @@ table{
   100%{
     transform: rotate(360deg);
   }
+}
+
+g[aria-labelledby="id-66-title"],
+g[aria-label="Average"]
+{
+  display: none;
+}
+
+g[transform="translate(62,0)"]{
+  transform: translate(85px,0);
 }
