@@ -784,13 +784,19 @@ table{
     transform: rotate(360deg);
   }
 }
-
+#chartdiv{
+  font-size: 1rem;
+}
 g[aria-labelledby="id-66-title"],
+g[aria-labelledby="id-65-title"],
 g[aria-label="Average"]
 {
   display: none;
 }
 
-g[transform="translate(62,0)"]{
-  transform: translate(85px,0);
+g[transform="translate(53,0)"]{
+  transform: translate(75px,0);
+}
+g[transform="translate(53,246)"]{
+  transform: translate(40px,246px);
 }
