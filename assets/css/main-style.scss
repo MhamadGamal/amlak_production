@@ -666,6 +666,8 @@ table{
 }
 
 .comments-box{
+  max-height: 400px;
+  overflow-y: auto;
   li{
     display: flex;
     align-items: center;
